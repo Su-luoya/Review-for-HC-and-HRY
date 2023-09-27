@@ -1,2 +1,5 @@
-# Review for HC and HRY
- A review project for python language learning
+# Review for HC and HR
+
+* [ ] cache.py
+* [ ] stock_data.py
+* [ ] portfolio_construct.py
