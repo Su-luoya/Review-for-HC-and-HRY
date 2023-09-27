@@ -91,7 +91,7 @@ class Cache(object):
         return pd.DataFrame()
 
     def save_file(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Save data into a csv or excel file."""
+        """Save data into a csv file.""" 
         # Directory generator.
         self.cache_path.parent.mkdir(parents=True, exist_ok=True)
         # Read cache file.
